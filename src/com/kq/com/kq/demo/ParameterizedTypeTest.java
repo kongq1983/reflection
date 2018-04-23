@@ -34,6 +34,7 @@ public class ParameterizedTypeTest {
 
     public static void main(String[] args) {
         parameterizedTypeDemo();
+       //
     }
 
 }
