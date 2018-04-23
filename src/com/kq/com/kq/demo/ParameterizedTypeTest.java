@@ -4,10 +4,12 @@ import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.Map;
 
 public class ParameterizedTypeTest {
 
-    public String printList(List<String> strLst) {
+//    public String printList(List<String> strLst) {
+        public String printList(Map<String,List<String>> strLst) {
         return "";
     }
 
@@ -23,7 +25,15 @@ public class ParameterizedTypeTest {
                     System.out.println(t.getTypeName());
                     System.out.println(t.getClass());
                     if(t instanceof ParameterizedType) {
-                        System.out.println("equal");
+//                        System.out.println("equal");
+                        ParameterizedType type = (ParameterizedType)t;
+                        System.out.println("rawType="+type.getRawType());
+                        System.out.println("ownerType="+type.getOwnerType());
+
+                        Type[] t1s = type.getActualTypeArguments();
+                        for(Type t1 : t1s){
+                            System.out.println("t1="+t1);
+                        }
                     }
                 }
 
