@@ -5,6 +5,9 @@ import java.lang.reflect.Proxy;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * @author  kq
+ */
 public class MapperProxyFactory<T> {
 
 
