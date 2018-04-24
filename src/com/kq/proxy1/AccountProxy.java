@@ -16,8 +16,7 @@ public class AccountProxy implements InvocationHandler{
         System.out.println("start------------------------- ");
 //        Object result =  method.invoke(this, args);
         Object result =  "guest";
-
-        System.out.println("end------------------------- result="+result);
+        System.out.println("e-n-d-------------------------- result="+result);
         return result;
     }
 }
