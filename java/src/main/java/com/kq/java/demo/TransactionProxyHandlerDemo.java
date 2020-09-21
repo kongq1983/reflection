@@ -2,12 +2,13 @@ package com.kq.java.demo;
 
 import com.kq.java.dynamic.EmployeeProxyHandler;
 import com.kq.java.dynamic.TransactionProxyHandler;
-import com.kq.java.entity.Employee;
-import com.kq.java.entity.Product;
-import com.kq.service.EmployeeService;
-import com.kq.service.ProductService;
-import com.kq.service.impl.EmployeeServiceImpl;
-import com.kq.service.impl.ProductServiceImpl;
+import com.kq.reflection.entity.Employee;
+import com.kq.reflection.entity.Product;
+import com.kq.reflection.service.EmployeeService;
+import com.kq.reflection.service.ProductService;
+import com.kq.reflection.service.impl.EmployeeServiceImpl;
+import com.kq.reflection.service.impl.ProductServiceImpl;
+
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

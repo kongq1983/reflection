@@ -1,6 +1,7 @@
 package com.kq.java.demo;
 
-import com.kq.java.entity.Employee;
+
+import com.kq.reflection.entity.Employee;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;

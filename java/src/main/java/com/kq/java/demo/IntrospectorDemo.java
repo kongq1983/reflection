@@ -1,6 +1,6 @@
 package com.kq.java.demo;
 
-import com.kq.java.entity.Employee;
+import com.kq.reflection.entity.Employee;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;

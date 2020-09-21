@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cglib/cglib.iml" filepath="$PROJECT_DIR$/cglib/cglib.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/reflection.iml" filepath="$PROJECT_DIR$/.idea/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
     </modules>
   </component>
 </project>

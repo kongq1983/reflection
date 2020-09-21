@@ -31,6 +31,15 @@ public class SmsBody {
         System.out.println("================SmsBody.5============================");
     }
 
+    public void send(String to, String from, String title, String message, Integer type) {
+        this.to = to;
+        this.from = from;
+        this.title = title;
+        this.message = message;
+        this.type = type;
+        System.out.println("================send============================");
+    }
+
     public String getTo() {
         return to;
     }

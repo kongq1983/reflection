@@ -1,9 +1,9 @@
 package com.kq.java.demo;
 
 import com.kq.java.dynamic.EmployeeProxyHandler;
-import com.kq.java.entity.Employee;
-import com.kq.service.EmployeeService;
-import com.kq.service.impl.EmployeeServiceImpl;
+import com.kq.reflection.entity.Employee;
+import com.kq.reflection.service.EmployeeService;
+import com.kq.reflection.service.impl.EmployeeServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

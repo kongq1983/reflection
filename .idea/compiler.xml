@@ -6,14 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java" />
+        <module name="cglib" />
         <module name="mybatis" />
+        <module name="service" />
+        <module name="java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cglib" target="1.8" />
       <module name="java" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="reflection" target="1.8" />
+      <module name="service" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cglib" options="" />
+      <module name="java" options="-parameters" />
+      <module name="mybatis" options="" />
+      <module name="reflection" options="" />
+      <module name="service" options="" />
+    </option>
   </component>
 </project>
