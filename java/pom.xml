@@ -29,9 +29,9 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <compilerArgs>
+                   <!-- <compilerArgs>
                         <arg>-parameters</arg>
-                    </compilerArgs>
+                    </compilerArgs>-->
                 </configuration>
 
             </plugin>
